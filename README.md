@@ -20,7 +20,7 @@
 - Transport controls use equal 40px hitboxes and consistent 22px vector icons.
 - Middle click and wheel retain the original next/previous track controls.
 
-Settings in the `alec.media` layout entry of `shell.json`:
+Settings in the `xvvhang.media` layout entry of `shell.json`:
 
 - `rhythmStyle`: `peak` (default), `led`, `wave`, `scope`, `stereo`, `breathing-dots`,
   `outline`, `center-pulse`.
@@ -84,9 +84,9 @@ omarchy plugin disable omarchy.media
 Restore the stock widget when uninstalling:
 
 ```sh
-omarchy plugin disable alec.media
+omarchy plugin disable xvvhang.media
 omarchy plugin enable omarchy.media
-omarchy plugin remove alec.media
+omarchy plugin remove xvvhang.media
 ```
 
 No audio is written to disk; settings remain in the shell configuration unless
