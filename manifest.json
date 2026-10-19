@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "xvvhang.media",
-  "name": "Alec Media",
+  "id": "xvvhang.now-playing",
+  "name": "Now Playing",
   "version": "1.0.0",
   "author": "alec (based on Omarchy Media)",
   "license": "MIT",
@@ -16,7 +16,7 @@
     "barWidget": "BarWidget.qml"
   },
   "barWidget": {
-    "displayName": "Alec Media",
+    "displayName": "Now Playing",
     "description": "Right-click display modes, left-click playback, hover for details",
     "category": "Media",
     "allowMultiple": false
