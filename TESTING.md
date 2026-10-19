@@ -14,7 +14,7 @@ After removing clone metadata, the bar must use `serviceFor(moduleName)`, not
 the built-in plugin was disabled; successful summon calls alone did not catch
 this because `open()` does nothing without media.
 
-After the fix and a shell restart, `omarchy-shell xvvhang.now-playing status` reported
+After the fix and a shell restart, `omarchy-shell konochi.konobeat status` reported
 `hasMedia: true`, `playing: true`, nonzero widget width, `sampling: true`, live
 spectrum data, and an empty `sampleError` with the built-in media plugin disabled.
 All nine DSP unit tests still passed. Qt 6 qmllint emitted type-resolution and

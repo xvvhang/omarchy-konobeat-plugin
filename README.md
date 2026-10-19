@@ -1,4 +1,6 @@
-# Now Playing
+# Konobeat
+
+Part of **Konochi**, a personal Omarchy plugin series by Alec Xu.
 
 - Appears when an MPRIS player exposes a song title or artist; hidden when no
   media metadata is available. Enabling the plugin alone does not force an icon.
@@ -22,7 +24,7 @@
 - Transport controls use equal 40px hitboxes and consistent 22px vector icons.
 - Middle click and wheel retain the original next/previous track controls.
 
-Settings in the `xvvhang.now-playing` layout entry of `shell.json`:
+Settings in the `konochi.konobeat` layout entry of `shell.json`:
 
 - `rhythmStyle`: `peak` (default), `led`, `wave`, `scope`, `stereo`, `breathing-dots`,
   `outline`, `center-pulse`.
@@ -86,9 +88,9 @@ omarchy plugin disable omarchy.media
 Restore the stock widget when uninstalling:
 
 ```sh
-omarchy plugin disable xvvhang.now-playing
+omarchy plugin disable konochi.konobeat
 omarchy plugin enable omarchy.media
-omarchy plugin remove xvvhang.now-playing
+omarchy plugin remove konochi.konobeat
 ```
 
 No audio is written to disk; settings remain in the shell configuration unless
