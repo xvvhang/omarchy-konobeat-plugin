@@ -2,6 +2,12 @@
 
 Part of **Konochi**, a personal Omarchy plugin series by Alec Xu.
 
+## Preview
+
+![Konobeat playback panel with track information, transport controls, bar label settings, and eight audio visualization styles](preview.png)
+
+## Features
+
 - Appears when an MPRIS player exposes a song title or artist; hidden when no
   media metadata is available. Enabling the plugin alone does not force an icon.
 - Bar text can show `song - artist`, song only, or be hidden. Long metadata scrolls.
