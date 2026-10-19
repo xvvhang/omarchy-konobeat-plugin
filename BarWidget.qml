@@ -8,7 +8,7 @@ import qs.Commons as Commons
 
 BarWidget {
   id: root
-  moduleName: "xvvhang.now-playing"
+  moduleName: "konochi.konobeat"
 
   readonly property var mediaService: bar?.shell?.serviceFor(moduleName)
   readonly property var activePlayer: mediaService ? mediaService.activePlayer : null
@@ -63,7 +63,7 @@ BarWidget {
   onHasMediaChanged: if (!hasMedia) close()
 
   IpcHandler {
-    target: "xvvhang.now-playing"
+    target: "konochi.konobeat"
     function open(): void { root.open() }
     function close(): void { root.close() }
     function toggle(): void { root.togglePanel() }
