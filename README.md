@@ -1,5 +1,7 @@
 # Alec Media
 
+- Appears when an MPRIS player exposes a song title or artist; hidden when no
+  media metadata is available. Enabling the plugin alone does not force an icon.
 - Bar text can show `song - artist`, song only, or be hidden. Long metadata scrolls.
 - Left click the bar widget: open/close the panel. Click outside to dismiss.
 - No right-click action or hover-to-open behavior. Playback controls are in the panel.
