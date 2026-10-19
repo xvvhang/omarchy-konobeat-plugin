@@ -81,7 +81,7 @@ This is a standalone plugin derived from Omarchy Media, not a development clone.
 Disable the stock widget to avoid duplicate controls and media notifications.
 
 ```sh
-omarchy plugin add https://github.com/xvvhang/konobeat --enable
+omarchy plugin add https://github.com/xvvhang/omarchy-konobeat-plugin --enable
 omarchy plugin disable omarchy.media
 ```
 
