@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "alec.media",
+  "name": "Alec Media",
+  "version": "1.0.0",
+  "author": "alec (based on Omarchy Media)",
+  "license": "MIT",
+  "description": "Scrolling song and artist with real PipeWire spectrum and waveform visualizers",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Alec Media",
+    "description": "Right-click display modes, left-click playback, hover for details",
+    "category": "Media",
+    "allowMultiple": false
+  }
+}
